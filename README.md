@@ -38,7 +38,7 @@ This project is a web-based tool that allows users to generate customized Excel 
 
 1. User visits the hosted form on Render.
 2. They enter:
-   - A **division name** (e.g., "Finance")
+   - A **division name** (e.g., "CAI", "CCI", "CEI")
    - A **row count** (e.g., 10)
 3. The form submits a `POST` request to the FastAPI `/process` endpoint.
 4. The backend:
